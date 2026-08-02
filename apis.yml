@@ -1,7 +1,28 @@
 aid: taxscouts
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taxscouts.png
 name: Taxscouts
-description: Taxscouts is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TaxScouts is a UK online tax-return and Self Assessment service that pairs
+  individuals, sole traders, landlords and investors with accredited accountants
+  to prepare, review and file their taxes with HMRC for a flat fee. Founded in
+  London, TaxScouts was acquired by Taxfix and its taxscouts.com domain now
+  redirects to taxfix.com/en-uk. The service is a consumer-facing web and mobile
+  product with pricing tiers for one-off filing, optimisation with HMRC audit
+  protection, and year-round accountant support. As of this profile it exposes
+  no public developer API, developer portal, or machine-readable API
+  documentation; this record captures its public identity and web properties
+  for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/taxscouts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,38 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: taxfix
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Tax
+- Accounting
+- Fintech
+- Self Assessment
+- HMRC
+- United Kingdom
+- Personal Finance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/taxscouts-domain-security.yml
+- type: Website
+  url: https://taxfix.com/en-uk/
+- type: Blog
+  url: https://taxfix.com/en-uk/category/blog/
+- type: TermsOfService
+  url: https://taxfix.com/en-uk/terms-of-service/
+- type: PrivacyPolicy
+  url: https://taxfix.com/en-uk/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
