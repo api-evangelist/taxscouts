@@ -56,6 +56,11 @@ tags:
 - Personal Finance
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/taxfix/
+  name: Taxfix
+  x-relationship: acquired
+  x-evidence: "Founded in London, TaxScouts was acquired by Taxfix and its taxscouts."
 - type: DomainSecurity
   url: security/taxscouts-domain-security.yml
 - type: Website
