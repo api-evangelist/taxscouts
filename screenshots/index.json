@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "taxscouts",
+    "captured_at": "2026-10-11T193243",
+    "source_url": "https://taxfix.com/en-uk/",
+    "source_type": "Website",
+    "file": "taxscouts-2026-10-11T193243.png",
+    "bytes": 195593,
+    "capture": "playwright-local"
+  }
+]
